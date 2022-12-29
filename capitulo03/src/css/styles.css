@@ -563,6 +563,10 @@ video {
   right: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .float-right {
   float: right;
 }
@@ -573,6 +577,10 @@ video {
 
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
 }
 
 .mx-auto {
@@ -599,6 +607,10 @@ video {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .overflow-auto {
@@ -719,6 +731,11 @@ video {
 .bg-pink-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 168 212 / var(--tw-bg-opacity));
+}
+
+.bg-teal-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 94 89 / var(--tw-bg-opacity));
 }
 
 .p-4 {
