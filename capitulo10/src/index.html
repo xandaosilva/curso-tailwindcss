@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Background position -->
+    <div class="h-48 overflow-auto bg-local bg-cidade">
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+    </div>
+
+    <!-- Background color and opacity -->
+    <div>
+        <div class="h-10 bg-green-100">Green 100</div>
+        <div class="h-10 bg-green-200">Green 200</div>
+        <div class="h-10 bg-green-300">Green 300</div>
+        <div class="h-10 bg-green-400">Green 400</div>
+        <div class="h-10 bg-green-500">Green 500</div>
+        <div class="h-10 bg-green-600">Green 600</div>
+        <div class="h-10 bg-green-700">Green 700</div>
+        <div class="h-10 bg-green-800">Green 800</div>
+        <div class="h-10 bg-green-900">Green 900</div>
+        <div class="h-10 bg-green-900 bg-opacity-0">Green 900</div>
+        <div class="h-10 bg-green-900 bg-opacity-25">Green 900</div>
+        <div class="h-10 bg-green-900 bg-opacity-75">Green 900</div>
+    </div>
+
+    <!-- Background position -->
+    <div class="h-48 overflow-auto bg-right-bottom" style="background-image: url(img/bg_cidade.jpg);">
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+    </div>
+
+    <!-- Background repeat -->
+    <div class="h-48 overflow-auto bg-local bg-no-repeat bg-tailwind">
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+        <p class="p-10">Test</p>
+    </div>
+
+    <!-- Background size -->
+    <p>Background size</p>
+    <div class="h-screen bg-cover bg-center" style="background-image: url(img/bg_cidade.jpg);"></div>
+    <div class="h-48 bg-contain bg-no-repeat bg-center" style="background-image: url(img/bg_cidade.jpg);"></div>
+
+    <!-- Custom image -->
+    <p>Gradient</p>
+    <div class="h-48 bg-gradient-to-tr from-gray-700 to-red-400"></div>
+    <div class="h-48 bg-gradient-to-b from-blue-500 via-green-600 to-yellow-400"></div>
+</body>
+</html>
