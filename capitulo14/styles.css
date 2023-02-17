@@ -17,3 +17,11 @@
 .item-nav-mid:hover{
     @apply border-white;
 }
+
+.item-nav-inf {
+    @apply border-b-2 border-transparent py-1 px-3;
+}
+
+.item-nav-inf:hover {
+    @apply text-orange-650 border-orange-650;
+}
