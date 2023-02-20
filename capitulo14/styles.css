@@ -29,3 +29,7 @@
 .btn-amazon-prime{
     @apply text-sm md:text-xs bg-yellow-350 border border-yellow-700 rounded px-3 py-3 md:py-0 md:ml-10 h-12 md:h-8 block md:flex items-center w-full md:w-auto text-center;
 }
+
+.item-footer-inf{
+    @apply hidden text-gray-600 mb-10 md:block;
+}
