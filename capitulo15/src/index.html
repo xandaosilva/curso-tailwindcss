@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizações Tailwindcss</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <!-- Dark mode manual and apply -->
+    <div class="m-4"><button class="btn" id="dark-mode">Dark Mode</button></div>
+    
+    <!-- Colors -->
+    <div class="bg-amber-500 text-white font-bold text-center p-10"><p>Esta é uma nova cor</p></div>
+    <div class="bg-rose-500 text-white font-bold text-center p-10"><p>Esta é uma nova cor</p></div>
+
+    <!-- Dark mode -->
+    <div class="bg-blue-50 text-black font-bold text-center p-10 dark:bg-blue-800 dark:text-white md:dark:bg-blue-600 sm:dark:bg-blue-300"><p>Dark Mode</p></div>
+
+    <!-- Ring utilities -->
+    <div class="m-6">
+        <button class="py-2 px-4 bg-amber-400 text-white ring-4 ring-amber-600 rounded hover:bg-amber-600 hover:ring-amber-400">Ring externo</button>
+        <button class="py-2 px-4 bg-rose-500 text-white mx-4 ring-4 ring-rose-700 ring-inset rounded-full">Ring interno</button>
+        <button class="py-2 px-4 bg-blue-500 text-white mx-4 ring-4 focus:ring-blue-700 ring-inset rounded-full focus:outline-none">Ring interno</button>
+    </div>
+
+    <!-- Forms -->
+    <div class="m-6">
+        <form action="">
+            <div class="m-4">
+                <input type="text" placeholder="Digite o seu nome" class="rounded">
+            </div>
+            <div class="m-4">
+                <input type="text" placeholder="Digite o seu nome" class="border-0 border-b-2 border-gray-600">
+            </div>
+            <div class="m-4">
+                <input type="text" placeholder="Digite o seu nome" class="border-transparent bg-gray-200 rounded">
+            </div>
+            <div class="m-4">
+                <select class="px-10 py-2 rounded">
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                </select>
+            </div>
+            <div class="m-4">
+                <input type="checkbox" class="border-gray-300 text-amber-400 mr-2 focus:ring-0">
+                <label>Li e aceito os termos</label>
+            </div>
+        </form>
+    </div>
+
+    <!-- Line height -->
+    <div class="m-6">
+        <h1 class="text-4xl">Line height padrão</h1>
+        <h1 class="text-4xl">Line height padrão</h1>
+        <h1 class="text-4xl leading-3">Line height modificado</h1>
+        <h1 class="text-4xl leading-3">Line height modificado</h1>
+    </div>
+
+    <!-- Spacing and opacity -->
+    <div class="m-0.5 bg-red-300 opacity-95">
+        <p class="text-xl">Testando espaçamento menor!</p>
+    </div>
+
+    <!-- Overflow -->
+    <p class="overflow-hidden overflow-ellipsis max-w-xs m-6 p-6 mx-auto bg-red-200 text-red-500 font-medium rounded-lg">
+        Lorem ipsum, dolor sit amet consectetur adipisicingadipisicingadipisicingadipisicingadipisicingadipisicingadipisicingadipisicingadipisicing elit. Quos atque praesentium nostrum pariatur in ut repellat, saepe assumenda voluptas eligendi! Assumenda quae doloribus at consequatur ullam! Odio maxime accusamus ea.
+    </p>
+    <p class="overflow-clip max-w-xs m-6 p-6 mx-auto bg-green-200 text-green-500 font-medium rounded-lg">
+        Lorem ipsum, dolor sit amet consectetur adipisicingadipisicingadipisicingadipisicingadipisicingadipisicingadipisicingadipisicingadipisicing elit. Quos atque praesentium nostrum pariatur in ut repellat, saepe assumenda voluptas eligendi! Assumenda quae doloribus at consequatur ullam! Odio maxime accusamus ea.
+    </p>
+</body>
+</html>
